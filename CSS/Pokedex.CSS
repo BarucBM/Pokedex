@@ -1,0 +1,179 @@
+
+
+.Pokemons{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.Pokemon .Name{
+    color: white;
+    text-transform: capitalize;
+
+}
+
+.normal {
+    background-color: #a6a877;
+}
+
+.grass {
+    background-color: #77c850;
+}
+
+.fire {
+    background-color: #ee4d30;
+}
+
+.water {
+    background-color: #678fee;
+}
+
+.electric {
+    background-color: #f7cf2e;
+}
+
+.ice {
+    background-color: #98d5d7;
+}
+
+.ground {
+    background-color: #dfbf69;
+}
+
+.flying {
+    background-color: #a98ff0;
+}
+
+.poison {
+    background-color: #a040a0;
+}
+
+.fighting {
+    background-color: #bf3029;
+}
+
+.psychic {
+    background-color: #f65687;
+}
+
+.dark {
+    background-color: #725847;
+}
+
+.rock {
+    background-color: #b8a137;
+}
+
+.bug {
+    background-color: #a8b720;
+}
+
+.ghost {
+    background-color: #6e5896;
+}
+
+.steel {
+    background-color: #b9b7cf;
+}
+
+.dragon {
+    background-color: #6f38f6;
+}
+
+.fairy {
+    background-color: #f9aec7;
+}
+
+
+
+
+
+@media screen and (min-width: 380px) {
+    .Pokemons{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .Pokemons{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .Pokemons{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.Pokemon{
+    margin: .5rem;
+    padding: 1rem 1rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    border-radius: 1rem;
+   display: flex;
+   flex-direction: column;
+
+}
+
+.Pokemon img{
+    
+    max-height: 90px;    
+    align-self: flex-end;
+
+}
+
+.Pokemon .Number{
+    text-align: right;
+    color: #000;
+    opacity: .3;
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+.Pokemon .Detail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 85px;
+}
+
+.Pokemon .Types{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.Pokemon .Type{
+
+    padding: .25rem .5rem;
+    font-size: .65rem;
+    margin: .25rem 0;
+    border-radius: 1rem;
+    filter:grayscale(0.6);
+    text-align: center;
+    text-transform: capitalize;
+}
+.ButtonLM{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100;
+    padding: 1rem;
+
+}
+.LoadMore{
+    color: white;
+    font-size: .8rem;
+    background-color: #6f38f6;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.2rem 0.7rem
+}
