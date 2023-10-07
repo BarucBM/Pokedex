@@ -104,7 +104,7 @@
 
 @media screen and (min-width: 992px) {
     .Pokemons{
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
@@ -184,4 +184,7 @@
     border: none;
     background-color: white;
     padding: 0;
+}
+h1{
+    margin-left: 1rem;
 }

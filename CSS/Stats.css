@@ -1,0 +1,142 @@
+.normal {
+    background-color: #a6a877;
+}
+
+.grass {
+    background-color: #77c850;
+}
+
+.fire {
+    background-color: #ee4d30;
+}
+
+.water {
+    background-color: #678fee;
+}
+
+.electric {
+    background-color: #f7cf2e;
+}
+
+.ice {
+    background-color: #98d5d7;
+}
+
+.ground {
+    background-color: #dfbf69;
+}
+
+.flying {
+    background-color: #a98ff0;
+}
+
+.poison {
+    background-color: #a040a0;
+}
+
+.fighting {
+    background-color: #bf3029;
+}
+
+.psychic {
+    background-color: #f65687;
+}
+
+.dark {
+    background-color: #725847;
+}
+
+.rock {
+    background-color: #b8a137;
+}
+
+.bug {
+    background-color: #a8b720;
+}
+
+.ghost {
+    background-color: #6e5896;
+}
+
+.steel {
+    background-color: #b9b7cf;
+}
+
+.dragon {
+    background-color: #6f38f6;
+}
+
+.fairy {
+    background-color: #f9aec7;
+}
+.content{
+    padding: 0;
+
+}
+
+.IMG{
+    display: flex;
+    flex-direction: column-reverse;
+    min-width: max-content;
+    max-height:300px;
+    align-items: center;
+}
+
+.IMG .name{
+    display: flex;
+    text-transform: capitalize;
+    color: white;
+    align-self: flex-start;
+    margin-left: 1.5rem ;
+    position: absolute;
+    top: 20px;
+}
+
+.Status{
+
+    background-color: white;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    padding: 1rem;
+
+}
+
+p{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.gif {
+    min-height: 250px;
+    margin-bottom: 1rem;
+
+}
+
+.nro{
+    display: flex;
+    align-self: flex-end;
+    position: absolute;
+    top: 30px;
+    right: 3rem;
+    font-size:x-large;
+    font-style: italic;
+    font-weight: bold;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Tipos{
+    display: flex;
+    align-self: flex-start;
+    margin-left: 1.5rem ;
+    position: absolute;
+    top: 60px;
+    text-transform: capitalize;
+}
+.Tipos .Type{
+    list-style: none;
+    font-size: small;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    padding: 0.2rem 0.5rem;
+    filter:brightness(1.3)
+}

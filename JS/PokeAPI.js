@@ -11,7 +11,19 @@ function convertpokeapiToPokemon (pokeDetail) {
     pokemon.types = types
     pokemon.type = type1
 
+    const Stats = pokeDetail.stats.map((statsSlot) => statsSlot.base_stat)
+    pokemon.hp = Stats[0]
+    pokemon.attack = Stats[1]
+    pokemon.defense = Stats[2]
+    pokemon.specialAttack = Stats[3]
+    pokemon.specialDefense = Stats[4]
+    pokemon.speed = Stats[5]
+
+    
+
+
     return pokemon
+
 }
 
 pokeapi.getPokemonDetail = (pokemon) => {

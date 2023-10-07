@@ -3,4 +3,12 @@ class Pokemon{
     number;
     type;
     types = [];
+    hp;
+    attack;
+    defense;
+    specialAttack;
+    specialDefense;
+    speed;
+    
+
 }
