@@ -1,3 +1,12 @@
+:root{
+    --Valor-vida:0;
+    --Valor-ataque:0;
+    --Valor-defesa:0;
+    --Valor-ataquesp:0;
+    --Valor-defesasp:0;
+    --Valor-velocidade:0;
+}
+
 .normal {
     background-color: #a6a877;
 }
@@ -98,7 +107,26 @@
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
     padding: 1rem;
+    display: flex;
+    flex-direction: row;
 
+}
+.Info{
+    width: 7.5rem;
+    max-width: calc(var(--Valor-vida))rem;
+}
+.Valores .one p{
+    margin: 0;
+    margin-right: 0.7rem;
+    text-align: ;
+
+}
+.Valores .one{
+    display: flex;
+    flex-direction: row;
+    height: 18.4px;
+    margin-top: 15px;
+    margin-bottom: 32px;
 }
 
 p{
@@ -116,12 +144,12 @@ p{
     align-self: flex-end;
     position: absolute;
     top: 30px;
-    right: 3rem;
     font-size:x-large;
     font-style: italic;
     font-weight: bold;
-
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
 }
 
 .Tipos{
@@ -139,4 +167,53 @@ p{
     border-radius: 1rem;
     padding: 0.2rem 0.5rem;
     filter:brightness(1.3)
+}
+
+.progress{
+    height: 18px;
+    padding: 5px;
+    background-color: #ccc;
+    display: flex;
+    border-radius: 10px;
+    width: 14rem;
+}
+.progress .vida{
+    height: 12px;
+    width:calc(var(--Valor-vida)*0.13rem);
+    background-color: hsl( calc(var(--Valor-vida) * 9.2) , 80%, 50%);;
+    border-radius: 10px;
+    margin-top: 0.6px;
+    align-self: center;
+}
+.progress .ataque{
+    height: 12px;
+    width:calc(var(--Valor-ataque)*0.13rem);
+    background-color: red;
+    border-radius: 10px;
+    margin-top: 0.6px;
+    align-self: center;
+}
+.progress .defesa{
+    height: 12px;
+    width:calc(var(--Valor-defesa)*0.13rem);
+    background-color: red;
+    border-radius: 10px;
+    margin-top: 0.6px;
+    align-self: center;
+}
+.progress .ataquesp{
+    height: 12px;
+    width:calc(var(--Valor-ataquesp)*0.13rem);
+    background-color: red;
+    border-radius: 10px;
+    margin-top: 0.6px;
+    align-self: center;
+}
+.progress .vida{
+    height: 12px;
+    width:calc(var(--Valor-vida)*0.13rem);
+    background-color: red;
+    border-radius: 10px;
+    margin-top: 0.6px;
+    align-self: center;
 }
