@@ -110,13 +110,25 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
 }
 .Info{
     width: 7.5rem;
-    max-width: calc(var(--Valor-vida))rem;
+    max-width: calc(var(--Valor-vida));
+    margin-right: 20px;
 }
 .Valores .one p{
+    margin: 0;
+    margin-right: 0.7rem;
+    width: 25px;
+
+}
+.Valores .oneD p{
+    margin: 0;
+    margin-right: 0.7rem;
+    width: 25px;
+
+}
+.Valores .oneD1 p{
     margin: 0;
     margin-right: 0.7rem;
     width: 25px;
@@ -128,6 +140,22 @@
     height: 18.4px;
     margin-top: 15px;
     margin-bottom: 32px;
+}
+.Valores .oneD{
+    display: flex;
+    flex-direction: row;
+    height: 18.4px;
+    margin-top: 15px;
+    margin-bottom: 41.2px;
+
+}
+.Valores .oneD1{
+    display: flex;
+    flex-direction: row;
+    height: 18.4px;
+    margin-top: 15px;
+    margin-bottom: 50.4px;
+
 }
 
 p{
@@ -181,7 +209,7 @@ p{
 .progress .vida{
     height: 12px;
     width:calc(var(--Valor-vida)*0.13rem);
-    background-color: hsl( calc(var(--Valor-vida) * 0.9) , 100%, 50%);
+    background-color: hsl( calc(var(--Valor-vida) * 0.7) , 100%, 50%);
     border-radius: 10px;
     margin-top: 0.6px;
     align-self: center;
@@ -189,7 +217,7 @@ p{
 .progress .ataque{
     height: 12px;
     width:calc(var(--Valor-ataque)*0.13rem);
-    background-color: hsl( calc(var(--Valor-ataque) * 0.9) , 100%, 50%);
+    background-color: hsl( calc(var(--Valor-ataque) * 0.7) , 100%, 50%);
     border-radius: 10px;
     margin-top: 0.6px;
     align-self: center;
@@ -197,7 +225,7 @@ p{
 .progress .defesa{
     height: 12px;
     width:calc(var(--Valor-defesa)*0.13rem);
-    background-color:hsl( calc(var(--Valor-defesa) * 0.9) , 100%, 50%);
+    background-color:hsl( calc(var(--Valor-defesa) * 0.7) , 100%, 50%);
     border-radius: 10px;
     margin-top: 0.6px;
     align-self: center;
@@ -205,7 +233,7 @@ p{
 .progress .ataquesp{
     height: 12px;
     width:calc(var(--Valor-ataquesp)*0.13rem);
-    background-color:hsl( calc(var(--Valor-ataquesp) * 0.9) , 100%, 50%);
+    background-color:hsl( calc(var(--Valor-ataquesp) * 0.7) , 100%, 50%);
     border-radius: 10px;
     margin-top: 0.6px;
     align-self: center;
@@ -213,7 +241,7 @@ p{
 .progress .defesasp{
     height: 12px;
     width:calc(var(--Valor-defesasp)*0.13rem);
-    background-color:hsl( calc(var(--Valor-defesasp) * 0.9) , 100%, 50%);
+    background-color:hsl( calc(var(--Valor-defesasp) *0.7) , 100%, 50%);
     border-radius: 10px;
     margin-top: 0.6px;
     align-self: center;
@@ -221,8 +249,28 @@ p{
 .progress .velocidade{
     height: 12px;
     width:calc(var(--Valor-velocidade)*0.13rem);
-    background-color:hsl( calc(var(--Valor-velocidade) * 0.9) , 100%, 50%);
+    background-color:hsl( calc(var(--Valor-velocidade) *0.7) , 100%, 50%);
     border-radius: 10px;
     margin-top: 0.6px;
     align-self: center;
+}
+
+@media screen and (min-width: 449px) {
+
+.Valores .oneD{
+    display: flex;
+    flex-direction: row;
+    height: 18.4px;
+    margin-top: 15px;
+    margin-bottom: 32px;
+
+}
+.Valores .oneD1{
+    display: flex;
+    flex-direction: row;
+    height: 18.4px;
+    margin-top: 15px;
+    margin-bottom: 32px;
+
+}
 }

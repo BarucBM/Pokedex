@@ -123,17 +123,17 @@ function Status(NroPoke, limit){
                     ${pokemon.attack}<div class="progress" ><div class="ataque"></div></div>
                 </p>
             </div>
-            <div class="one">  
+            <div class="oneD">  
                 <p>
                     ${pokemon.defense}<div class="progress" ><div class="defesa"></div></div>
                 </p>
             </div>
-            <div class="one">  
+            <div class="oneD1">  
                 <p>
                     ${pokemon.specialAttack}<div class="progress" ><div class="ataquesp"></div></div>
                 </p>
             </div>
-            <div class="one">  
+            <div class="oneD">  
                 <p>
                     ${pokemon.specialDefense}<div class="progress" ><div class="defesasp"></div></div>
                 </p>
@@ -160,7 +160,3 @@ function Status(NroPoke, limit){
     })
     
 }
-
-
-
-
